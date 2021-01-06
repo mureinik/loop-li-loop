@@ -1,0 +1,25 @@
+{
+  "name": "loop-di-loop",
+  "version": "1.0.0",
+  "description": "Demos and benchmarks for the talk This DoS Goes Loop-di-Loop by Allon Mureinik",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mureinik/loop-di-loop.git"
+  },
+  "keywords": [
+    "fosdem",
+    "dos",
+    "demo",
+    "event",
+    "loop"
+  ],
+  "author": "Allon Mureinik (allon.mureinik@synopsys.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mureinik/loop-di-loop/issues"
+  },
+  "homepage": "https://github.com/mureinik/loop-di-loop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
