@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mureinik/loop-di-loop#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "libxmljs2": "^0.37.0"
   }
 }
