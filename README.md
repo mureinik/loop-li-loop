@@ -24,12 +24,17 @@ npm install
 
 
 ## Usage
-- `lib`: Contains the demos. Each of these files is a standalone mini-application that can be run with
-  ```
-  node <filename>
-  ```
+- `lib`: Contains the demos. Each of these files is a standalone mini-application that can be run independently:
 
-  Once run, the application will be available at http://localhost:3000.
+  - JSON example:
+    ```
+    node demo-json.js
+    ```
+
+    Then hit the endpoint with a POST request:
+    ```
+    curl -X POST -H "Content-Type: application/json" -d '{"key1": "value1", "key2": "value2"}' http://localhost:3000/json
+    ```
 
 - `benchmark`: Contains scripts to benchmark the issues demonstrated in the talk. Each of these scripts can be run 
   independently and will dump a CSV result to the standard output. It's recommended to redirect the output to a file:
