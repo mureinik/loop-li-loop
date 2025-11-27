@@ -56,6 +56,16 @@ npm install
     curl http://localhost:3000/regexp?regexp=a%2B&text=aaaa
     ```
 
+  - Storage example:
+    ```
+    node demo-storage.js
+    ```
+
+    Then hit the endpoint with a GET request:
+    ```
+    curl http://localhost:3000/lorem
+    ```
+
 - `benchmark`: Contains scripts to benchmark the issues demonstrated in the talk. Each of these scripts can be run 
   independently and will dump a CSV result to the standard output. It's recommended to redirect the output to a file:
   ```
