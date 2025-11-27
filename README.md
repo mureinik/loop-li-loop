@@ -36,6 +36,16 @@ npm install
     curl -X POST -H "Content-Type: application/json" -d '{"key1": "value1", "key2": "value2"}' http://localhost:3000/json
     ```
 
+   - XML example:
+    ```
+    node demo-json.js
+    ```
+
+    Then hit the endpoint with a POST request:
+    ```
+    curl -X POST -H "Content-Type: application/xml" -d '<xml><child/></xml>' http://localhost:3000/xml
+    ```
+
 - `benchmark`: Contains scripts to benchmark the issues demonstrated in the talk. Each of these scripts can be run 
   independently and will dump a CSV result to the standard output. It's recommended to redirect the output to a file:
   ```
