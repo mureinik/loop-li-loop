@@ -1,3 +1,5 @@
+'use strict';
+
 const libxmljs = require('libxmljs2');
 const lineSize = 10;
 const opts = {noent: true, nocdata: true, noblanks: true, huge: true};

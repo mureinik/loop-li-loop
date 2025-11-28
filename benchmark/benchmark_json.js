@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('Length\tTime');
 for (let i = 1024; i <= 1024 * 1024 ; i += 1024) {
     const str = '"' + Array(i + 1).join('a') + '"';

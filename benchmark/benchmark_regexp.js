@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('A\'s\ttime');
 let regex = new RegExp('^(a+)+$');
 
