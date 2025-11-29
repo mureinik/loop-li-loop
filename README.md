@@ -77,7 +77,7 @@ npm install
     ```
 
 - `benchmark`: Contains scripts to benchmark the issues demonstrated in the talk. Each of these scripts can be run 
-  independently and will dump a CSV result to the standard output. It's recommended to redirect the output to a file:
+  independently and will dump a tab-separated result to the standard output. It's recommended to redirect the output to a file:
   ```
-  node <filename> > /tmp/benchmark.csv
+  node <filename> > /tmp/benchmark.tsv
   ```
