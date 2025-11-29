@@ -21,6 +21,7 @@
   "homepage": "https://github.com/mureinik/loop-di-loop#readme",
   "dependencies": {
     "express": "^5.1.0",
+    "js-yaml": "^4.1.1",
     "libxmljs2": "^0.37.0"
   }
 }

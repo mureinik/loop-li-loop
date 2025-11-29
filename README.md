@@ -46,6 +46,16 @@ npm install
     curl -X POST -H "Content-Type: application/xml" -d '<xml><child/></xml>' http://localhost:3000/xml
     ```
 
+  - YAML example (mentioned but not discussed deeply in the talk):
+    ```
+    node demo-yaml.js
+    ```
+
+    Then hit the endpoint with a POST request:
+    ```
+    curl -X POST -d $'line0: &line0 [\"line0\"]\nline1: &line1 [\"line1\"]' http://localhost:3000/yaml
+    ```
+
   - ReDoS example:
     ```
     node demo-redos.js
