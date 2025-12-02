@@ -1,6 +1,6 @@
 # This DoS Goes Loop-di-Loop
 
-A repo with the demos and benchmarks from my talk This Loop Goes Loop-di-Loop.
+A repo with the demos and benchmarks from my talk This Loop Goes Loop-di-Loop that was featured in [several conferences](./CONFERENCES.md).
 
 
 ## Warning
